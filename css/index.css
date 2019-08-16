@@ -145,9 +145,6 @@ h5 {
   font-family: "Russo One", sans-serif;
   color: #23293b;
 }
-h1 {
-  font-size: 4rem;
-}
 h2 {
   font-size: 3.2rem;
 }
@@ -306,11 +303,12 @@ footer {
   .home .walk {
     flex-direction: column-reverse;
     width: 100%;
-    padding: 50px 0px;
+    padding: 30px 0px 10px 0px;
+    margin-top: 10px;
   }
   .home .walk .walk-text {
     width: 100%;
-    padding: 5% 2.5%;
+    padding: 5% 2.5% 0% 2.5%;
   }
   .home .walk .walk-img {
     width: 100%;
