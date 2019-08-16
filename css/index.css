@@ -119,7 +119,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {
@@ -135,7 +135,7 @@ html {
 html,
 body {
   font-family: "Ubuntu", sans-serif;
-  color: #5e6164;
+  color: #5E6164;
 }
 h1,
 h2,
@@ -143,7 +143,7 @@ h3,
 h4,
 h5 {
   font-family: "Russo One", sans-serif;
-  color: #23293b;
+  color: #23293B;
 }
 h1 {
   font-size: 4rem;
@@ -158,9 +158,6 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
-a {
-  font-size: 1.7rem;
-}
 .container {
   max-width: 800px;
   width: 100%;
@@ -173,6 +170,9 @@ header nav {
   align-items: center;
   padding: 2.5% 0%;
 }
+header nav h1 {
+  font-size: 4rem;
+}
 header nav div {
   display: flex;
   justify-content: space-evenly;
@@ -182,9 +182,10 @@ header nav div {
 header nav a {
   text-decoration: none;
   color: black;
+  font-size: 1.7rem;
 }
 footer {
-  color: #22283b;
+  color: #22283B;
   background: #f4f4f4;
   padding: 20px 0;
   border: 1px double #e0e0e0;
