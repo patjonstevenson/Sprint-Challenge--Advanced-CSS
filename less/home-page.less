@@ -1,6 +1,13 @@
 // Home Content
 
 .home {
+  header {
+    img {
+      @media @phone {
+        width: 100%;
+      }
+    }
+  }
   .intro {
     h2 {
       padding: 15px;
@@ -21,6 +28,20 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+    }
+
+    @media @phone {
+      img {
+        width: 100%;
+      }
+
+      .sky {
+        display: none;
+      }
+
+      .launch {
+        display: none;
+      }
     }
   }
 
@@ -56,6 +77,10 @@
 
       .btn {
         .button();
+
+        @media @phone {
+          .button(@width: 100%, @radius:5px);
+        }
       }
     }
 
@@ -67,6 +92,22 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+      }
+    }
+    @media @phone {
+      flex-direction: column-reverse;
+      width: 100%;
+      padding: 50px 0px;
+
+      .walk-text {
+        width: 100%;
+        padding: 5% 2.5%;
+      }
+
+      .walk-img {
+        width: 100%;
+        margin-left: 0;
+        padding: 0% 2.5%;
       }
     }
   }
