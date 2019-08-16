@@ -1,11 +1,11 @@
 // Navigation code here
 header {
   nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    .flex(@direction: column);
     padding: 2.5% 0%;
+    background-color: @nav-bg;
+    color: @nav-font;
+    border: 1px solid @nav-border;
 
     h1 {
       font-size: 4rem;
